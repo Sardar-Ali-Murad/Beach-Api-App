@@ -1,0 +1,7 @@
+export const HANDLE_CHANGE="HANDLE_CHANGE"
+
+export const HANDLE_CHECK="HANDLE_CHECK"
+
+export const FILTER_ROOMS="FILTER_ROOMS"
+
+export const GET_ROOMS="GET_ROOMS"

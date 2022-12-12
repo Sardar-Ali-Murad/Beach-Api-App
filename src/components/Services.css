@@ -1,0 +1,25 @@
+.service-main{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.service-main h1{
+    font-size: 30px;
+}
+
+.single-service{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.service-big-main{
+    background: #f0e6e6;
+    padding: 10px;
+}
+
+
+@media screen and (max-width:1100px) {
+    .service-main{
+        flex-direction: column;
+    }
+}

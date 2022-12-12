@@ -1,0 +1,35 @@
+.banner-main{
+    background-color: red;
+width: 50%;
+transform: translate(-50%,-50%);
+position: absolute;
+top: 50%;
+left: 50%;
+background-color: rgba(0,0,0,.6);
+color: white;
+padding: 30px;
+text-align: center;
+backdrop-filter: blur(4px);
+}
+
+.bannerBtn{
+    font-size: 16px;
+font-family: 'Roboto Flex', sans-serif;
+color: gray;
+padding: 15px;
+background: #d7c5c5;
+border: 2px solid #d7c5c5;
+cursor: pointer;
+}
+
+.bannerBtn:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+}
+
+@media screen and (max-width:800px) {
+     .banner-main{
+        width: 80%;
+     }
+}

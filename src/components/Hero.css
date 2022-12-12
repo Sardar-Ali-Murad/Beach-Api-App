@@ -1,0 +1,7 @@
+.hero-main{
+    background: url("./img/3.jpg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
